@@ -1,0 +1,4 @@
+item.aggressive_spam:junk_letter.name=Junk Letter
+tile.aggressive_spam:mailbox.name=Mailbox
+pack.name=Aggressive Spam Mailboxes
+pack.description=Adds mailboxes that explode if daily spam is ignored!

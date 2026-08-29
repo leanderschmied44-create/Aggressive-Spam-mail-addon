@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Aggressive Spam Mailboxes RP",
+    "description": "Resource Pack for Aggressive Spam Mailboxes",
+    "uuid": "f3ff2e4f-233b-4e31-a34f-85d82da14e30",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 80]
+  },
+  "modules": [
+    {
+      "description": "Resource pack resources",
+      "type": "resources",
+      "uuid": "5beb0146-77f4-4d77-921f-6b3c8e5ab825",
+      "version": [1, 0, 0]
+    }
+  ]
+}

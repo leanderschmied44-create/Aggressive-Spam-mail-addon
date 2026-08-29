@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "aggressive_spam:mailbox",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.cube",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "aggressive_spam_mailbox",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:inventory": {
+        "inventory_size": 27,
+        "container_type": "container"
+      },
+      "minecraft:loot": "loot_tables/blocks/mailbox.json"
+    }
+  }
+}

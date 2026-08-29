@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Aggressive Spam Mailboxes BP",
+    "description": "Placing a wooden door automatically crafts a mailbox in front of it. Fills up with junk mail every morning!",
+    "uuid": "973d9341-6e5c-417c-9bcb-7f6f85714207",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 80]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "type": "script",
+      "uuid": "7bf673de-a671-4f14-bd1a-b86c498dd75a",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    },
+    {
+      "description": "Behavior pack data",
+      "type": "data",
+      "uuid": "131c63f1-0b2f-4e16-9ce7-cd3a99dc8caf",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0"
+    },
+    {
+      "uuid": "f3ff2e4f-233b-4e31-a34f-85d82da14e30",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "aggressive_spam:junk_letter",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "junk_letter"
+      },
+      "minecraft:display_name": {
+        "value": "Junk Letter"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}
