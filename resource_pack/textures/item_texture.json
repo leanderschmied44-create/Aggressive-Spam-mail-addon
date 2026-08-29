@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "aggressive_spam_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "junk_letter": {
+      "textures": "textures/items/junk_letter"
+    }
+  }
+}
